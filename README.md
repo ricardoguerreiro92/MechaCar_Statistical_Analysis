@@ -16,4 +16,4 @@
 - We can consider this linear model to predict the MPG of MechaCar prototypes to be effective. The reason we can do this is because the main indicator of our model is the multiple r-squared value which in our case its value is 0.7149 meaning that in every 100 prototypes we can effectively predict about 71.5 times the MPG of the MechaCar.
 
 ## MPG Multiple Linear Regression
-[mpg_mlr](../resources/linear_regression.png)
+![mpg_mlr](/resources/linear_regression.png)
