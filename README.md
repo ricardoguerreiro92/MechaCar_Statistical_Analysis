@@ -38,7 +38,7 @@ In this section we will be addressing the following question:
 ## T-Tests on Suspension Coils
 Here we want to determine if all the manufacturing lots and each of the lots individually are statistically different from the mean PSI of the population of 1500 PSI. To find the p-value and identify the statistical difference we used function t.test().<br>If we use the significance level of a normal distribution, which is 95%, we can verify that all our p-values are far greater than 0.05(5%), which means we fail to reject that there is statistical difference between them, we can see this by looking at the following images from all the tests we performed:
 
-### Total population T-Test
+### Total Population T-Test
 ![total_t_test](/resources/total_t_test.png)
 
 ### Lot 1 T-Test
@@ -49,3 +49,24 @@ Here we want to determine if all the manufacturing lots and each of the lots ind
 
 ### Lot 3 T-Test
 ![lot3_t_test](/resources/lot3_t_test.png)
+
+## Study Design: MechaCar vs Competition
+Here we have been asked to perform a statistical study to see how the MechaCar performs against the competion. In our studies we will have in mind the interest of the consumers and see which metrics would motivate them to buy MechaCars instead of the competition. In our study we will be addressing the following questions:
+
+1. What metric or metrics are you going to test?
+
+I will be using City/Hwy fuel efficiency and the cost. As a consumer this are the main factors I look up on a car, if car is fuel/cost efficient I then move onto different aspects.
+
+2. What is the null hypothesis or alternative hypothesis? 
+
+The null hypothesis in this case is that by comparing the MechaCars with the competition they would be statistically the same, meaning there would be no difference between fuel/cost efficiency between the MechaCars and the competition.
+
+The alternative hypothesis is that by comparing MechaCars with the competition they would be statistically different, meaning that there would be a statistical difference between fuel/cost efficiency between MechaCars and the competition. One thing we must keep in mind is this statistical difference could be positive or negative! Working for AutosRU's we obviously want this difference to be positive to attract costumers.
+
+3. What statistical test would you use to test the hypothesis? And why? 
+
+I would use an ANOVA test to determine if there is any statistical significant difference between the three variables. I would also use a multiple linear regression to test how much our cost is dependent of the fuel efficiency variables.
+
+4. What data is needed to run the statistical test?
+
+We would need the fuel efficiency and cost data of the competitors with at least 100 cars per class type so we could create a sample to be able to perform the tests and verify the differences between them.
