@@ -36,3 +36,16 @@ In this section we will be addressing the following question:
 - If we look at the total summary table we can see our variance is about 62.3 PSI which means it does meet the design specifications. If we look individually at each lot we see Lot1 with variance of about 0.98 PSI, Lot2 7.47 PSI, Lot3 with 170.29 PSI. The first two lots do meet the design specifications but the third one exceeds it by about 70.29 PSI.
 
 ## T-Tests on Suspension Coils
+Here we want to determine if all the manufacturing lots and each of the lots individually are statistically different from the mean PSI of the population of 1500 PSI. To find the p-value and identify the statistical difference we used function t.test().<br>If we use the significance level of a normal distribution, which is 95%, we can verify that all our p-values are far greater than 0.05(5%), which means we fail to reject that there is statistical difference between them, we can see this by looking at the following images from all the tests we performed:
+
+### Total population T-Test
+![total_t_test](/resources/total_t_test.png)
+
+### Lot 1 T-Test
+![lot1_t_test](/resources/lot1_t_test.png)
+
+### Lot 2 T-Test
+![lot2_t_test](/resources/lot2_t_test.png)
+
+### Lot 3 T-Test
+![lot3_t_test](/resources/lot3_t_test.png)
