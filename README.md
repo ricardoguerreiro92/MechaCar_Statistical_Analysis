@@ -4,7 +4,7 @@
 - AutosRU's newest prototype MechaCar have been suffering some production troubles that have been blocking the manufacturing team from achieving any progress. We have been requested by AutosRU's upper management to review the production data for insight that may help the manufacturing team solve this issue. We will be using two datasets, MechaCar MPG and Suspension Coil, to provide some statistical analysis. We will be using programming language R with its dplyr library on RStudio for this specific analysis.
 
 ## Linear Regression to Predict MPG
-- Here we performed a multiple linear regression to check if we can predict the dependent variable - miles per gallon(MPG) on the independent variables - vehicle length, vehicle weight, spoiler angle, ground clearance and all-wheel drive (AWD). With this we will be answering three main questions:
+Here we performed a multiple linear regression to check if we can predict the dependent variable - miles per gallon(MPG) on the independent variables - vehicle length, vehicle weight, spoiler angle, ground clearance and all-wheel drive (AWD). With this we will be answering three main questions:
 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Vehicle length and ground clearance were the two variables that provided a non-random amount of variance to the MPG values. These two variables have a very small p-value which means they have a high level of significance to how much gas is spent. It is worth to be noted that the intercept also has a high significance level which means there are other factors besides ground clearance and vehicle length that contribute to the variance of the MPG of the MechaCar.
